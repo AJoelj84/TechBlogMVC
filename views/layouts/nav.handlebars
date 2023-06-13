@@ -1,0 +1,34 @@
+<script src="./js/navbar.js"></script>
+
+<nav class="navbar is-fixed-top is-transparent is-size-3">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/" id="logo">
+            
+        </a>
+    </div>
+
+    <a role="button" id="burger" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="pages">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+
+    <div id="pages" class="navbar-menu">
+        <div class="navbar-start">
+            {{#if logged_in}} 
+            <a class="navbar-item" href="">page name here</a>
+            <a class="navbar-item" href="">page name here</a>
+            <a class="navbar-item" href="">page name here</a>
+            {{/if}}
+        </div>
+
+        <div class="navbar-end">
+            {{#if logged_in}}
+            <a class="navbar-item" id="logout">Logout</a>
+            {{else}}
+            <a class="navbar-item" href="login">Login</a>
+            <a class="navbar-item" href="signup">Sign-Up</a>
+            {{/if}}
+        </div>
+    </div>
+</nav>

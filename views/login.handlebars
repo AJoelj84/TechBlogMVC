@@ -1,15 +1,50 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login - TechQikBlog</title>
-    <!-- Add CSS and Dependancies -->
-</head>
-<body>
-    <h1>Login</h1>
-    <form action="/login" method="POST">
-        <input type="text" name="username" placeholder="Username" required>
-        <input type="password" name="password" placeholder="Password" required>
-        <button type="submit">Login</button>
-    </form>
-</body>
-</html>
+
+  <section class="has-text-centered">
+    <h2 class="title is-1">Login</h2>
+    <p class="block">Login to Access your account</p>
+  </section>
+  <section>
+    <div class="container is-max-desktop">
+      <form class="mx-5 login-form">
+        <div class="field">
+          <label class="label" for="email-login">Email Address</label>
+            <div class="control has-icons-left">
+              <input 
+                class="input" 
+                type="email" 
+                placeholder="Enter your email address"
+                name="email" 
+                id="email-login" 
+                required>
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+            </div>
+        </div>
+        <div class="field">
+          <label class="label" for="psw">Password</label>
+            <div class="control has-icons-left">
+              <input 
+                class="input" 
+                type="password" 
+                placeholder="Enter your password"
+                name="password" 
+                id="password-login" 
+                required>
+              <span class="icon is-small is-left">
+                <i class="fa-solid fa-lock"></i>
+              </span>
+            </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <button type="submit" id="loginbtn" class="button mt-2">Login</button>
+          </div>
+          <p>Account Sign Up Here <a href="signup">Sign up</a>!</p>
+        </div>
+      </form>
+          
+    </div>
+  </section>
+
+<script src=""></script>
