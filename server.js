@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const dotenv = require('dotenv');
-const routes = require('./homeRoutes');
+const routes = require('./controllers/homeRoutes');
 
 dotenv.config();
 
