@@ -6,11 +6,7 @@ let sequelize;
 if (process.env.DATABASE_URL) {
   sequelize = new Sequelize(process.env.DATABASE_URL);
 } else {
-  sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
-    host: process.env.DB_HOST || 'localhost',
-    dialect: 'mysql',
-    port: process.env.DB_PORT || 3306
-  });
+  sequelize = new Sequelize('mysql://root:1234@localhost:3306/TechQik');
 }
 
 module.exports = sequelize;
