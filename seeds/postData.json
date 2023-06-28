@@ -1,0 +1,47 @@
+[
+    {
+      "title": "Nvidia RTX 3060ti",
+      "content": "An excellent video card for the price point,  far outswinging price/performance ratio compared to other cards.",
+      "user_id": 1
+    },
+    {
+      "title": "AMD Ryzen 3900",
+      "content": "While this CPU is aging, if one can find it at a good used price point it still preforms fantstically.",
+      "user_id": 1
+    },
+    {
+      "title": "Not all Drives are created Equal",
+      "content": "When looking to upgrade to a new hard drive users must keep in mind that while newer NVME drives are fast compared to their old SATA SSD counterparts, not all NVME drives are created equal and performance ranges by as much as 2 to 300%.",
+      "user_id": 3
+    },
+    {
+      "title": "The Rise of 8K Gaming",
+      "content": "With the advancement of technology, 8K gaming is becoming more accessible. Let's explore the future of gaming with incredibly detailed visuals.",
+      "user_id": 2
+    },
+    {
+      "title": "The Power of Machine Learning",
+      "content": "Machine learning is revolutionizing various industries, including healthcare, finance, and entertainment. Discover the incredible power of this cutting-edge technology.",
+      "user_id": 4
+    },
+    {
+      "title": "Exploring Quantum Computing",
+      "content": "Quantum computing holds the promise of solving complex problems faster than traditional computers. Dive into the world of quantum computing and its potential applications.",
+      "user_id": 5
+    },
+    {
+      "title": "The Evolution of Mobile Phones",
+      "content": "From brick-sized devices to sleek smartphones, mobile phones have come a long way. Trace the evolution of mobile phones and the impact they have on our lives.",
+      "user_id": 3
+    },
+    {
+      "title": "The Future of Artificial Intelligence",
+      "content": "Artificial Intelligence is shaping the future of technology and transforming various industries. Explore the potential of AI and its implications for society.",
+      "user_id": 2
+    },
+    {
+      "title": "The Growing Trend of Virtual Reality",
+      "content": "Virtual Reality is gaining popularity as a new way of experiencing digital content. Immerse yourself in virtual worlds and witness the future of entertainment.",
+      "user_id": 5
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+      "username": "Jimmy",
+      "email": "jimbob1@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "username": "Nolan",
+      "email": "nolang12@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "username": "Bobby",
+      "email": "bobbyboy@yahoo.com",
+      "password": "pass123"
+    },
+    {
+      "username": "Alisha",
+      "email": "alish@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "username": "Samuel",
+      "email": "samyouwell@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "username": "Brenda",
+      "email": "ohmgitsbrenda@yahoo.com",
+      "password": "pass123"
+    }
+  ]

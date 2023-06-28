@@ -1,0 +1,52 @@
+[
+  {
+    "comment_text": "Great post! I learned a lot from it.",
+    "user_id": 2,
+    "post_id": 1
+  },
+  {
+    "comment_text": "I have a question regarding this topic. Can you provide more details?",
+    "user_id": 3,
+    "post_id": 1
+  },
+  {
+    "comment_text": "This information is really helpful. Thanks for sharing!",
+    "user_id": 4,
+    "post_id": 1
+  },
+  {
+    "comment_text": "I completely agree with your points. Well written!",
+    "user_id": 5,
+    "post_id": 1
+  },
+  {
+    "comment_text": "I tried implementing this and it worked perfectly. Thanks!",
+    "user_id": 1,
+    "post_id": 1
+  },
+  {
+    "comment_text": "I have a different perspective on this topic. Let's discuss!",
+    "user_id": 3,
+    "post_id": 1
+  },
+  {
+    "comment_text": "Can you recommend any additional resources on this subject?",
+    "user_id": 2,
+    "post_id": 1
+  },
+  {
+    "comment_text": "I'm having trouble understanding a certain concept. Can you explain it further?",
+    "user_id": 4,
+    "post_id": 1
+  },
+  {
+    "comment_text": "This post inspired me to explore this topic in more depth. Thank you!",
+    "user_id": 5,
+    "post_id": 1
+  },
+  {
+    "comment_text": "I've shared this post with my colleagues. They found it valuable too!",
+    "user_id": 1,
+    "post_id": 1
+  }
+]
