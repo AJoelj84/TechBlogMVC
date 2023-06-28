@@ -1,6 +1,7 @@
 body
   {
     background-color: rgb(209, 242, 255);
+    font-family: 'Josefin Sans', sans-serif;
   }
 
 .navbar-brand
@@ -88,4 +89,21 @@ h2
 .delete-post-btn:hover
   {
     color: red;
+  }
+
+.login-link
+  {
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+.login-link:hover
+  {
+    color: blueviolet;
+  }
+
+.form-group
+  {
+    margin-top: 30px;
   }
