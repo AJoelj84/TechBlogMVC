@@ -20,7 +20,7 @@ Simply Open The Heroku Deployed Page Link Below
 
 [GitHubRepository](https://github.com/AJoelj84/TechBlogMVC)
 
-[DeployedPage]()
+[DeployedPage](https://techqik-ccaa5c6abf81.herokuapp.com/)
 
 # Contact
 
