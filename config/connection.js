@@ -14,7 +14,6 @@ if (process.env.DATABASE_URL) {
     }
   }
 );
-
 sequelize
   .authenticate()
 } else {
