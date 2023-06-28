@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS techqik_db;
+CREATE DATABASE techqik_db;
