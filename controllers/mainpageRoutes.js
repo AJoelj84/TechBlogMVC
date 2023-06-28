@@ -69,7 +69,7 @@ router.get('/edit/:id', withAuth, async (req, res) => {
 
     const post = dbPostData.get({ plain: true });
 
-    res.render('edit-post', {
+    res.render('editpost', {
       post,
       logged_in: true,
       username: req.session.username,
@@ -81,7 +81,7 @@ router.get('/edit/:id', withAuth, async (req, res) => {
 });
 
 router.get('/new', (req, res) => {
-  res.render('new-post', { username: req.session.username });
+  res.render('newpost', { username: req.session.username });
 });
 
 module.exports = router;

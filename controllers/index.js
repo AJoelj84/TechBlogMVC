@@ -6,7 +6,7 @@ const mainpageRoutes = require("./mainpageRoutes.js");
 
 router.use("/", homeRoutes);
 router.use("/api", apiRoutes);
-router.use("/mainpage", mainpageRoutes);
+router.use("/dashboard", mainpageRoutes);
 
 router.use((req, res) => {res.status(404).end();});
 

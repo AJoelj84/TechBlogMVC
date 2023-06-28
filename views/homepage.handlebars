@@ -1,4 +1,7 @@
-{{#> main pageTitle="Home"}}
-  <h1>Welcome to TechQik</h1>
-  <!-- Add home page content here -->
-{{/main}}
+<article class="post">
+
+  {{#each posts as |post| }}
+  {{> postinfo post}}
+  {{/each}}
+
+</article>
