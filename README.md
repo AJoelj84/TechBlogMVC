@@ -30,14 +30,14 @@ Simply Open The Heroku Deployed Page Link Below
 
 # Screenshots
 
-![Alt text](<screenshots/Screenshot 2023-06-28 125020.png>)
+![Alt text](<screenshots/Screenshot 2023-06-28 134039.png>)
 
-![Alt text](<screenshots/Screenshot 2023-06-28 125055.png>)
+![Alt text](<screenshots/Screenshot 2023-06-28 134050.png>)
 
-![Alt text](<screenshots/Screenshot 2023-06-28 125107.png>)
+![Alt text](<screenshots/Screenshot 2023-06-28 134102.png>)
 
-![Alt text](<screenshots/Screenshot 2023-06-28 125133.png>)
+![Alt text](<screenshots/Screenshot 2023-06-28 134114.png>)
 
-![Alt text](<screenshots/Screenshot 2023-06-28 125149.png>)
+![Alt text](<screenshots/Screenshot 2023-06-28 134124.png>)
 
-![Alt text](<screenshots/Screenshot 2023-06-28 125211.png>)
+![Alt text](<screenshots/Screenshot 2023-06-28 134135.png>)
