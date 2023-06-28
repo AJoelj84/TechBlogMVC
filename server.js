@@ -1,22 +1,31 @@
-const express = require('express');
-const app = express();
 const path = require('path');
-const dotenv = require('dotenv');
-const routes = require('./controllers/homeRoutes');
-
-dotenv.config();
-
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-
-// Set the view Directory and Engine to Handlebars
-app.set('views', path.join(__dirname, 'views'));
+const express = require('express');
+const session = require('express-session');
+const exphbs = require('express-handlebars');
+const routes = require('./controllers');
+const helpers = require('./utils/helpers');
+const sequelize = require('./config/connection');
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+const app = express();
+const PORT = process.env.PORT || 3001;
+const hbs = exphbs.create({ helpers });
+const sess = {
+    secret: 'Super secret secret',
+    cookie: {},
+    resave: false,
+    saveUninitialized: true,
+    store: new SequelizeStore({
+      db: sequelize,
+    }),
+  };
+app.use(session(sess));
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(routes);
 
-// Define routes
-app.use('/', routes);
-
-// Start the server
-app.listen(3001, () => {
-  console.log('Server is running on port 3001');
-});
+sequelize.sync({ force: false }).then(() => {
+    app.listen(PORT, () => console.log('Now listening on port ' + PORT));
+  });

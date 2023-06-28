@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>TechQikBlog</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/dashboard">Dashboard</a></li>
-            <li><a href="/logout">Logout</a></li>
-        </ul>
-    </nav>
-
-    <h1>Welcome to TechQikBlog</h1>
-
-    <h2>Most Recent Blog Post:</h2>
-    <div class="blog-post">
-        <h3>{{recentPost.title}}</h3>
-        <p>{{recentPost.content}}</p>
-    </div>
-</body>
-</html>
+{{#> main pageTitle="Home"}}
+  <h1>Welcome to TechQik</h1>
+  <!-- Add home page content here -->
+{{/main}}
