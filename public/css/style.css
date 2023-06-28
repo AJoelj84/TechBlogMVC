@@ -1,0 +1,27 @@
+.navbar-brand
+  {
+    font-size: 350%;
+  }
+
+.navbar
+  {
+    background-color: rgb(106, 171, 255);
+  }
+
+.navbar-nav
+  {
+    font-size: 150%;
+    
+  }
+
+.navbar-light .navbar-nav .nav-link:hover 
+  {
+    color: rgba(235, 234, 234, 0.89);
+  }
+  
+
+
+a:hover
+  {
+    color: rgb(10, 0, 143);
+  }
