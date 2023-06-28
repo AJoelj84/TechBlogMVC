@@ -4,6 +4,12 @@ require('dotenv').config();
 let sequelize;
 
 if (process.env.DATABASE_URL) {
+  
+  console.log('DATABASE_URL:', process.env.DATABASE_URL);
+  const urlParts = new URL(process.env.DATABASE_URL);
+  console.log('urlParts:', urlParts);
+
+
   sequelize = new Sequelize(process.env.DATABASE_URL, {
     dialect: 'mysql',
     logging: false
