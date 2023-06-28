@@ -1,3 +1,8 @@
+body
+  {
+    background-color: rgb(209, 242, 255);
+  }
+
 .navbar-brand
   {
     font-size: 350%;
@@ -24,4 +29,63 @@
 a:hover
   {
     color: rgb(10, 0, 143);
+  }
+
+.card
+  {
+    background-color: rgb(106, 171, 255);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    color: black;
+  }
+
+.card-header
+  {
+    background-color: rgb(208, 209, 209);
+    border-radius: 30px !important;
+  }
+
+.h4
+  {
+    color: black;
+  }
+
+.card-body
+  {
+    font-size: 15px;
+    color: black;
+    font-weight:600;
+  }
+.link
+  {
+    color: black;
+  }
+
+.form-input
+  {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+.btn
+  {
+    font-weight: 500;
+    margin-left: 30px;
+  }
+
+.btn:hover
+  {
+    color: rgb(208, 209, 209);
+  }
+
+h2
+  {
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+
+.delete-post-btn:hover
+  {
+    color: red;
   }
